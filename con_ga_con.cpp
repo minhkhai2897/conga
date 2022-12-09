@@ -1,9 +1,12 @@
 ﻿/**
  * tictactoe.cpp: implement AI engine for tictactoe game
  * - Tạo state: vector<vector<char>>
+ * - Xác định người chơi tiếp theo
+ * - Đếm số X và O trên các hàng cột và đường chéo
  * - Kiểm tra kết thúc
- * 
- * 
+ * - Trả về số điểm tương ứng
+ * - Tính điểm các nước đi dựa vào các nước đi tiếp theo
+ * - Chọn ra được nước đi tốt nhât
  * 
  * 2. Giao diện người dùng:
  * - Chọn 1 trong 2 chế độ dễ và khó
